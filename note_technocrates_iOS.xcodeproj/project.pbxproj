@@ -15,6 +15,8 @@
 		21B0B22625C22A1400C7781E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21B0B22425C22A1400C7781E /* Main.storyboard */; };
 		21B0B22825C22A1500C7781E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21B0B22725C22A1500C7781E /* Assets.xcassets */; };
 		21B0B22B25C22A1500C7781E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21B0B22925C22A1500C7781E /* LaunchScreen.storyboard */; };
+		21DF3C3225CB468A00F3DCBC /* AddCategoryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21DF3C3125CB468A00F3DCBC /* AddCategoryVC.swift */; };
+		21DF3C3525CB46F500F3DCBC /* AllNotesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21DF3C3425CB46F500F3DCBC /* AllNotesTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		21B0B22725C22A1500C7781E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		21B0B22A25C22A1500C7781E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		21B0B22C25C22A1500C7781E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21DF3C3125CB468A00F3DCBC /* AddCategoryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCategoryVC.swift; sourceTree = "<group>"; };
+		21DF3C3425CB46F500F3DCBC /* AllNotesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllNotesTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +73,8 @@
 				21B0B22C25C22A1500C7781E /* Info.plist */,
 				2171DC2025C257E800238530 /* EntryViewController.swift */,
 				2171DC2425C2584500238530 /* NoteViewController.swift */,
+				21DF3C3125CB468A00F3DCBC /* AddCategoryVC.swift */,
+				21DF3C3425CB46F500F3DCBC /* AllNotesTableViewController.swift */,
 			);
 			path = note_technocrates_iOS;
 			sourceTree = "<group>";
@@ -143,10 +149,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21DF3C3225CB468A00F3DCBC /* AddCategoryVC.swift in Sources */,
 				21B0B22325C22A1400C7781E /* ViewController.swift in Sources */,
 				2171DC2A25C25F5300238530 /* EntryViewController.swift in Sources */,
 				21B0B21F25C22A1400C7781E /* AppDelegate.swift in Sources */,
 				2171DC2525C2584500238530 /* NoteViewController.swift in Sources */,
+				21DF3C3525CB46F500F3DCBC /* AllNotesTableViewController.swift in Sources */,
 				21B0B22125C22A1400C7781E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
