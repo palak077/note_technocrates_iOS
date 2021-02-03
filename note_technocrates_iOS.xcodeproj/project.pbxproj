@@ -25,6 +25,7 @@
 		21DF3C4725CB4AA200F3DCBC /* ViewNotesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21DF3C4625CB4AA200F3DCBC /* ViewNotesVC.swift */; };
 		21DF3C4A25CB4AEC00F3DCBC /* tabbarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21DF3C4925CB4AEC00F3DCBC /* tabbarViewController.swift */; };
 		21DF3C5125CB4FB900F3DCBC /* note_technocrates_iOS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 21DF3C4F25CB4FB900F3DCBC /* note_technocrates_iOS.xcdatamodeld */; };
+		21DF3C5625CB51E200F3DCBC /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 21DF3C5525CB51E200F3DCBC /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,7 +38,6 @@
 		21B0B22525C22A1400C7781E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		21B0B22725C22A1500C7781E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		21B0B22A25C22A1500C7781E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		21B0B22C25C22A1500C7781E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		21DF3C3125CB468A00F3DCBC /* AddCategoryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCategoryVC.swift; sourceTree = "<group>"; };
 		21DF3C3425CB46F500F3DCBC /* AllNotesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllNotesTableViewController.swift; sourceTree = "<group>"; };
 		21DF3C3725CB47B400F3DCBC /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
@@ -48,6 +48,7 @@
 		21DF3C4625CB4AA200F3DCBC /* ViewNotesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewNotesVC.swift; sourceTree = "<group>"; };
 		21DF3C4925CB4AEC00F3DCBC /* tabbarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tabbarViewController.swift; sourceTree = "<group>"; };
 		21DF3C5025CB4FB900F3DCBC /* NoteIt.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NoteIt.xcdatamodel; sourceTree = "<group>"; };
+		21DF3C5525CB51E200F3DCBC /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,10 +120,10 @@
 			children = (
 				21B0B21E25C22A1400C7781E /* AppDelegate.swift */,
 				21B0B22025C22A1400C7781E /* SceneDelegate.swift */,
+				21DF3C5525CB51E200F3DCBC /* Info.plist */,
 				21B0B22925C22A1500C7781E /* LaunchScreen.storyboard */,
 				21B0B22225C22A1400C7781E /* ViewController.swift */,
 				21B0B22725C22A1500C7781E /* Assets.xcassets */,
-				21B0B22C25C22A1500C7781E /* Info.plist */,
 			);
 			path = SO;
 			sourceTree = "<group>";
@@ -184,6 +185,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21DF3C5625CB51E200F3DCBC /* Info.plist in Resources */,
 				21B0B22B25C22A1500C7781E /* LaunchScreen.storyboard in Resources */,
 				21B0B22825C22A1500C7781E /* Assets.xcassets in Resources */,
 				21B0B22625C22A1400C7781E /* Main.storyboard in Resources */,
