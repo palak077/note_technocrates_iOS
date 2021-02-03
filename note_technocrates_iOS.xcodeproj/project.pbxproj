@@ -24,6 +24,7 @@
 		21DF3C4425CB494F00F3DCBC /* MapVCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21DF3C4325CB494F00F3DCBC /* MapVCViewController.swift */; };
 		21DF3C4725CB4AA200F3DCBC /* ViewNotesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21DF3C4625CB4AA200F3DCBC /* ViewNotesVC.swift */; };
 		21DF3C4A25CB4AEC00F3DCBC /* tabbarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21DF3C4925CB4AEC00F3DCBC /* tabbarViewController.swift */; };
+		21DF3C5125CB4FB900F3DCBC /* note_technocrates_iOS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 21DF3C4F25CB4FB900F3DCBC /* note_technocrates_iOS.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +47,7 @@
 		21DF3C4325CB494F00F3DCBC /* MapVCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapVCViewController.swift; sourceTree = "<group>"; };
 		21DF3C4625CB4AA200F3DCBC /* ViewNotesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewNotesVC.swift; sourceTree = "<group>"; };
 		21DF3C4925CB4AEC00F3DCBC /* tabbarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tabbarViewController.swift; sourceTree = "<group>"; };
+		21DF3C5025CB4FB900F3DCBC /* NoteIt.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NoteIt.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 			isa = PBXGroup;
 			children = (
 				21B0B21D25C22A1400C7781E /* note_technocrates_iOS */,
+				21DF3C4E25CB4EA000F3DCBC /* SO */,
 				21B0B21C25C22A1400C7781E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -78,26 +81,50 @@
 		21B0B21D25C22A1400C7781E /* note_technocrates_iOS */ = {
 			isa = PBXGroup;
 			children = (
-				21B0B21E25C22A1400C7781E /* AppDelegate.swift */,
-				21B0B22025C22A1400C7781E /* SceneDelegate.swift */,
-				21B0B22225C22A1400C7781E /* ViewController.swift */,
 				21B0B22425C22A1400C7781E /* Main.storyboard */,
-				21B0B22725C22A1500C7781E /* Assets.xcassets */,
-				21B0B22925C22A1500C7781E /* LaunchScreen.storyboard */,
-				21B0B22C25C22A1500C7781E /* Info.plist */,
-				2171DC2025C257E800238530 /* EntryViewController.swift */,
-				2171DC2425C2584500238530 /* NoteViewController.swift */,
-				21DF3C3125CB468A00F3DCBC /* AddCategoryVC.swift */,
-				21DF3C3425CB46F500F3DCBC /* AllNotesTableViewController.swift */,
-				21DF3C3725CB47B400F3DCBC /* Constants.swift */,
-				21DF3C3A25CB47E000F3DCBC /* Notes.swift */,
-				21DF3C3D25CB487000F3DCBC /* AddNoteVC.swift */,
+				21DF3C4D25CB4C0700F3DCBC /* VC */,
 				21DF3C4025CB489800F3DCBC /* NotesCell.swift */,
-				21DF3C4325CB494F00F3DCBC /* MapVCViewController.swift */,
+				21DF3C3125CB468A00F3DCBC /* AddCategoryVC.swift */,
+				2171DC2425C2584500238530 /* NoteViewController.swift */,
+				21DF3C3425CB46F500F3DCBC /* AllNotesTableViewController.swift */,
+				21DF3C3D25CB487000F3DCBC /* AddNoteVC.swift */,
 				21DF3C4625CB4AA200F3DCBC /* ViewNotesVC.swift */,
+				2171DC2025C257E800238530 /* EntryViewController.swift */,
+				21DF3C4325CB494F00F3DCBC /* MapVCViewController.swift */,
 				21DF3C4925CB4AEC00F3DCBC /* tabbarViewController.swift */,
+				21DF3C4F25CB4FB900F3DCBC /* note_technocrates_iOS.xcdatamodeld */,
+				21DF3C4C25CB4B3D00F3DCBC /* utility */,
 			);
 			path = note_technocrates_iOS;
+			sourceTree = "<group>";
+		};
+		21DF3C4C25CB4B3D00F3DCBC /* utility */ = {
+			isa = PBXGroup;
+			children = (
+				21DF3C3A25CB47E000F3DCBC /* Notes.swift */,
+				21DF3C3725CB47B400F3DCBC /* Constants.swift */,
+			);
+			path = utility;
+			sourceTree = "<group>";
+		};
+		21DF3C4D25CB4C0700F3DCBC /* VC */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		21DF3C4E25CB4EA000F3DCBC /* SO */ = {
+			isa = PBXGroup;
+			children = (
+				21B0B21E25C22A1400C7781E /* AppDelegate.swift */,
+				21B0B22025C22A1400C7781E /* SceneDelegate.swift */,
+				21B0B22925C22A1500C7781E /* LaunchScreen.storyboard */,
+				21B0B22225C22A1400C7781E /* ViewController.swift */,
+				21B0B22725C22A1500C7781E /* Assets.xcassets */,
+				21B0B22C25C22A1500C7781E /* Info.plist */,
+			);
+			path = SO;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -172,6 +199,7 @@
 			files = (
 				21DF3C3225CB468A00F3DCBC /* AddCategoryVC.swift in Sources */,
 				21B0B22325C22A1400C7781E /* ViewController.swift in Sources */,
+				21DF3C5125CB4FB900F3DCBC /* note_technocrates_iOS.xcdatamodeld in Sources */,
 				21DF3C4425CB494F00F3DCBC /* MapVCViewController.swift in Sources */,
 				21DF3C3E25CB487000F3DCBC /* AddNoteVC.swift in Sources */,
 				2171DC2A25C25F5300238530 /* EntryViewController.swift in Sources */,
@@ -385,6 +413,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		21DF3C4F25CB4FB900F3DCBC /* note_technocrates_iOS.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				21DF3C5025CB4FB900F3DCBC /* NoteIt.xcdatamodel */,
+			);
+			currentVersion = 21DF3C5025CB4FB900F3DCBC /* NoteIt.xcdatamodel */;
+			path = note_technocrates_iOS.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 21B0B21325C22A1400C7781E /* Project object */;
 }
