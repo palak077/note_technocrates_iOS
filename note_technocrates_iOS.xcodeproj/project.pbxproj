@@ -17,6 +17,10 @@
 		21B0B22B25C22A1500C7781E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21B0B22925C22A1500C7781E /* LaunchScreen.storyboard */; };
 		21DF3C3225CB468A00F3DCBC /* AddCategoryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21DF3C3125CB468A00F3DCBC /* AddCategoryVC.swift */; };
 		21DF3C3525CB46F500F3DCBC /* AllNotesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21DF3C3425CB46F500F3DCBC /* AllNotesTableViewController.swift */; };
+		21DF3C3825CB47B400F3DCBC /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21DF3C3725CB47B400F3DCBC /* Constants.swift */; };
+		21DF3C3B25CB47E000F3DCBC /* Notes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21DF3C3A25CB47E000F3DCBC /* Notes.swift */; };
+		21DF3C3E25CB487000F3DCBC /* AddNoteVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21DF3C3D25CB487000F3DCBC /* AddNoteVC.swift */; };
+		21DF3C4125CB489800F3DCBC /* NotesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21DF3C4025CB489800F3DCBC /* NotesCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +36,10 @@
 		21B0B22C25C22A1500C7781E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		21DF3C3125CB468A00F3DCBC /* AddCategoryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCategoryVC.swift; sourceTree = "<group>"; };
 		21DF3C3425CB46F500F3DCBC /* AllNotesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllNotesTableViewController.swift; sourceTree = "<group>"; };
+		21DF3C3725CB47B400F3DCBC /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		21DF3C3A25CB47E000F3DCBC /* Notes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notes.swift; sourceTree = "<group>"; };
+		21DF3C3D25CB487000F3DCBC /* AddNoteVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNoteVC.swift; sourceTree = "<group>"; };
+		21DF3C4025CB489800F3DCBC /* NotesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +83,10 @@
 				2171DC2425C2584500238530 /* NoteViewController.swift */,
 				21DF3C3125CB468A00F3DCBC /* AddCategoryVC.swift */,
 				21DF3C3425CB46F500F3DCBC /* AllNotesTableViewController.swift */,
+				21DF3C3725CB47B400F3DCBC /* Constants.swift */,
+				21DF3C3A25CB47E000F3DCBC /* Notes.swift */,
+				21DF3C3D25CB487000F3DCBC /* AddNoteVC.swift */,
+				21DF3C4025CB489800F3DCBC /* NotesCell.swift */,
 			);
 			path = note_technocrates_iOS;
 			sourceTree = "<group>";
@@ -151,11 +163,15 @@
 			files = (
 				21DF3C3225CB468A00F3DCBC /* AddCategoryVC.swift in Sources */,
 				21B0B22325C22A1400C7781E /* ViewController.swift in Sources */,
+				21DF3C3E25CB487000F3DCBC /* AddNoteVC.swift in Sources */,
 				2171DC2A25C25F5300238530 /* EntryViewController.swift in Sources */,
 				21B0B21F25C22A1400C7781E /* AppDelegate.swift in Sources */,
 				2171DC2525C2584500238530 /* NoteViewController.swift in Sources */,
+				21DF3C3B25CB47E000F3DCBC /* Notes.swift in Sources */,
 				21DF3C3525CB46F500F3DCBC /* AllNotesTableViewController.swift in Sources */,
 				21B0B22125C22A1400C7781E /* SceneDelegate.swift in Sources */,
+				21DF3C3825CB47B400F3DCBC /* Constants.swift in Sources */,
+				21DF3C4125CB489800F3DCBC /* NotesCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
