@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		2124941125CC2B4D0013317D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2124941025CC2B4D0013317D /* Main.storyboard */; };
-		2124941C25CC71080013317D /* AudioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2124941B25CC71080013317D /* AudioViewController.swift */; };
 		2171DC2525C2584500238530 /* NoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2171DC2425C2584500238530 /* NoteViewController.swift */; };
 		2171DC2A25C25F5300238530 /* EntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2171DC2025C257E800238530 /* EntryViewController.swift */; };
 		21B0B21F25C22A1400C7781E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21B0B21E25C22A1400C7781E /* AppDelegate.swift */; };
@@ -31,7 +30,6 @@
 
 /* Begin PBXFileReference section */
 		2124941025CC2B4D0013317D /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		2124941B25CC71080013317D /* AudioViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioViewController.swift; sourceTree = "<group>"; };
 		2171DC2025C257E800238530 /* EntryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryViewController.swift; sourceTree = "<group>"; };
 		2171DC2425C2584500238530 /* NoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteViewController.swift; sourceTree = "<group>"; };
 		21B0B21B25C22A1400C7781E /* note_technocrates_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = note_technocrates_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -89,7 +87,6 @@
 				21DF3C4D25CB4C0700F3DCBC /* VC */,
 				21DF3C4025CB489800F3DCBC /* NotesCell.swift */,
 				21DF3C3125CB468A00F3DCBC /* AddCategoryVC.swift */,
-				2124941B25CC71080013317D /* AudioViewController.swift */,
 				2171DC2425C2584500238530 /* NoteViewController.swift */,
 				21DF3C3425CB46F500F3DCBC /* AllNotesTableViewController.swift */,
 				21DF3C3D25CB487000F3DCBC /* AddNoteVC.swift */,
@@ -207,7 +204,6 @@
 				21DF3C5125CB4FB900F3DCBC /* note_technocrates_iOS.xcdatamodeld in Sources */,
 				21DF3C4425CB494F00F3DCBC /* MapVCViewController.swift in Sources */,
 				21DF3C3E25CB487000F3DCBC /* AddNoteVC.swift in Sources */,
-				2124941C25CC71080013317D /* AudioViewController.swift in Sources */,
 				2171DC2A25C25F5300238530 /* EntryViewController.swift in Sources */,
 				21B0B21F25C22A1400C7781E /* AppDelegate.swift in Sources */,
 				21DF3C4A25CB4AEC00F3DCBC /* tabbarViewController.swift in Sources */,
