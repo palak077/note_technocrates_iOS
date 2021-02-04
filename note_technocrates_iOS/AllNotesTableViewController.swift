@@ -277,7 +277,8 @@ class AllNotesTableViewController: UIViewController, UITableViewDelegate, UITabl
 //        }
 //    }
 //    func tableView(_ tableView: UITableView, commit editingStyle:   UITableViewCell, forRowAt indexPath: IndexPath) {
-//        if (editingStyle == .delete) {
+//        if (editingStyle == .delete)
+//        {
 //            tableView.beginUpdates()
 //            tableView.deleteRows(at: [indexPath], with: .middle)
 //            tableView.endUpdates()
