@@ -25,6 +25,7 @@ class AddNoteVC: UIViewController , CLLocationManagerDelegate, UINavigationContr
     var pickerData: [String] = [String]()
     var imagePicker = UIImagePickerController()
     var imageData = Data()
+    
     @IBOutlet var imageView: UIImageView!
     @IBOutlet weak var titleTF: UITextField!
     @IBOutlet weak var locationTF: UILabel!
