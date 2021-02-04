@@ -49,10 +49,10 @@ class AddNoteVC: UIViewController , CLLocationManagerDelegate, UINavigationContr
         self.RemovePhotoBTN.isHidden =  true
         imageView.isHidden =  true
 
-        //refernce for the managed context
+        //reference for the managed context
         let appDelegate = UIApplication.shared.delegate as! AppDelegate;
               dataManager = appDelegate.persistentContainer.viewContext;
-              pickerData = ["Work", "Home", "School", "Michelenous", "Sports", "Others"]
+              pickerData = ["PROGRAMMING", "COLLEGE", "WORK",  "PASSWORDS","SELF-HELP", "GROCERIES", "MISCELLANEOUS", "Others"]
         
         
         self.categoryPicker.delegate = self
