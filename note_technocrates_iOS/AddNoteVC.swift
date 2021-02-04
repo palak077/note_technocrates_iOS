@@ -39,7 +39,8 @@ class AddNoteVC: UIViewController , CLLocationManagerDelegate, UINavigationContr
        
        @IBOutlet weak var categoryPicker: UIPickerView!
     
-   
+    @IBOutlet weak var btnAudio: UIButton!
+    
     
     override func viewDidLoad()
     {
@@ -60,8 +61,9 @@ class AddNoteVC: UIViewController , CLLocationManagerDelegate, UINavigationContr
         categoryPicker.isHidden = true;
         categoryTF.text = "Work"
         
-        let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: "dismissKeyboard")
-
+        let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(self.dismissKeyboard))
+            
+           //if error - do dismissKeyboard only
            //Uncomment the line below if you want the tap not not interfere and cancel other interactions.
            //tap.cancelsTouchesInView = false
 

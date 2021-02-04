@@ -82,6 +82,7 @@
 		21B0B21D25C22A1400C7781E /* note_technocrates_iOS */ = {
 			isa = PBXGroup;
 			children = (
+				21DF3C4F25CB4FB900F3DCBC /* note_technocrates_iOS.xcdatamodeld */,
 				21DF3C4E25CB4EA000F3DCBC /* SO */,
 				21DF3C4D25CB4C0700F3DCBC /* VC */,
 				21DF3C4025CB489800F3DCBC /* NotesCell.swift */,
@@ -93,7 +94,6 @@
 				2171DC2025C257E800238530 /* EntryViewController.swift */,
 				21DF3C4325CB494F00F3DCBC /* MapVCViewController.swift */,
 				21DF3C4925CB4AEC00F3DCBC /* tabbarViewController.swift */,
-				21DF3C4F25CB4FB900F3DCBC /* note_technocrates_iOS.xcdatamodeld */,
 				21DF3C4C25CB4B3D00F3DCBC /* utility */,
 			);
 			path = note_technocrates_iOS;
