@@ -47,7 +47,7 @@ class AllNotesTableViewController: UIViewController, UITableViewDelegate, UITabl
            self.navigationController?.navigationBar.topItem?.title = "Your Title"
         
         
-        //TO ENHANCE THE ANIMATION OF THE SECOND VIEW 
+        //TO ENHANCE THE ANIMATION OF THE SECOND VIEW
 //        UIView.animate(withDuration: 12.0, delay: 1, options: ([.curveLinear, .repeat]), animations: {() -> Void in
 //            self.YOURLABEL.center = CGPoint(x: 0 - self.YOURLABEL.bounds.size.width / 2, y: self.YOURLABEL.center.y)
 //        }, completion:  { _ in })
@@ -55,7 +55,7 @@ class AllNotesTableViewController: UIViewController, UITableViewDelegate, UITabl
          }
    
     override func viewWillAppear(_ animated: Bool) {
-        print("view will")
+        print("view will appear hencforth")
         items = []
         searcharray = []
         
