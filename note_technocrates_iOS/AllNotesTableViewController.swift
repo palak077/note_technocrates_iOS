@@ -46,6 +46,8 @@ class AllNotesTableViewController: UIViewController, UITableViewDelegate, UITabl
               dataManager = appDelegate.persistentContainer.viewContext;
            self.navigationController?.navigationBar.topItem?.title = "Your Title"
         
+        
+        //TO ENHANCE THE ANIMATION OF THE SECOND VIEW 
 //        UIView.animate(withDuration: 12.0, delay: 1, options: ([.curveLinear, .repeat]), animations: {() -> Void in
 //            self.YOURLABEL.center = CGPoint(x: 0 - self.YOURLABEL.bounds.size.width / 2, y: self.YOURLABEL.center.y)
 //        }, completion:  { _ in })
