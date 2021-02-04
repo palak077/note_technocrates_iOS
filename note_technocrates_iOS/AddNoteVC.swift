@@ -63,7 +63,7 @@ class AddNoteVC: UIViewController , CLLocationManagerDelegate, UINavigationContr
         
         let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(self.dismissKeyboard))
             
-           //if error - do dismissKeyboard only
+           //if error - do dismissKeyboard only instead of #(selector)
            //Uncomment the line below if you want the tap not not interfere and cancel other interactions.
            //tap.cancelsTouchesInView = false
 
