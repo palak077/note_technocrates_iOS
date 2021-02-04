@@ -96,6 +96,7 @@ class AddNoteVC: UIViewController , CLLocationManagerDelegate, UINavigationContr
 //        print(self.lat as Any);
 //        print(self.long as Any);
 //        print(timestamp as Any);
+        
         let geocoder = CLGeocoder()
         var placemark: CLPlacemark?
 

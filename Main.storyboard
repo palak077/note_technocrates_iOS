@@ -168,6 +168,14 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jDj-1V-iUa">
+                                <rect key="frame" x="100" y="797" width="173" height="35"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
+                                <state key="normal" title="UPDATE THE NOTE">
+                                    <color key="titleColor" systemColor="systemOrangeColor"/>
+                                </state>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="LOs-lE-MAz"/>
                         <color key="backgroundColor" systemColor="systemGrayColor"/>
@@ -178,7 +186,9 @@
                             <constraint firstItem="5cc-X0-Dq1" firstAttribute="leading" secondItem="LOs-lE-MAz" secondAttribute="leading" constant="30" id="HgZ-mV-Usr"/>
                             <constraint firstItem="siC-XB-4nh" firstAttribute="leading" secondItem="LOs-lE-MAz" secondAttribute="leading" constant="30" id="KS3-u8-0NV"/>
                             <constraint firstItem="LOs-lE-MAz" firstAttribute="trailing" secondItem="siC-XB-4nh" secondAttribute="trailing" constant="30" id="PMY-z2-hxD"/>
+                            <constraint firstItem="jDj-1V-iUa" firstAttribute="leading" secondItem="LOs-lE-MAz" secondAttribute="leading" constant="100" id="SaX-UQ-dQ4"/>
                             <constraint firstItem="Zd6-1j-Xoh" firstAttribute="centerX" secondItem="LqT-B5-lji" secondAttribute="centerX" id="VLh-L3-ZAL"/>
+                            <constraint firstItem="LOs-lE-MAz" firstAttribute="bottom" secondItem="jDj-1V-iUa" secondAttribute="bottom" constant="30" id="Vqz-hK-Eeh"/>
                             <constraint firstItem="9ck-ml-kL2" firstAttribute="top" secondItem="5cc-X0-Dq1" secondAttribute="bottom" constant="30" id="aJW-3Q-TP4"/>
                             <constraint firstItem="Zd6-1j-Xoh" firstAttribute="top" secondItem="LOs-lE-MAz" secondAttribute="top" constant="30" id="nnP-4n-4Gl"/>
                             <constraint firstItem="LOs-lE-MAz" firstAttribute="trailing" secondItem="5cc-X0-Dq1" secondAttribute="trailing" constant="30" id="qXP-eW-ufu"/>
