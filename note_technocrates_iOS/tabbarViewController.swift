@@ -16,6 +16,7 @@ class tabbarViewController: UITabBarController {
     }
     
 
+    // tabbar is created to toggle between the two views
     /*
     // MARK: - Navigation
 
