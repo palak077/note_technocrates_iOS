@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2124941125CC2B4D0013317D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2124941025CC2B4D0013317D /* Main.storyboard */; };
 		2171DC2525C2584500238530 /* NoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2171DC2425C2584500238530 /* NoteViewController.swift */; };
 		2171DC2A25C25F5300238530 /* EntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2171DC2025C257E800238530 /* EntryViewController.swift */; };
 		21B0B21F25C22A1400C7781E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21B0B21E25C22A1400C7781E /* AppDelegate.swift */; };
 		21B0B22125C22A1400C7781E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21B0B22025C22A1400C7781E /* SceneDelegate.swift */; };
 		21B0B22325C22A1400C7781E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21B0B22225C22A1400C7781E /* ViewController.swift */; };
-		21B0B22625C22A1400C7781E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21B0B22425C22A1400C7781E /* Main.storyboard */; };
 		21B0B22825C22A1500C7781E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21B0B22725C22A1500C7781E /* Assets.xcassets */; };
 		21B0B22B25C22A1500C7781E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21B0B22925C22A1500C7781E /* LaunchScreen.storyboard */; };
 		21DF3C3225CB468A00F3DCBC /* AddCategoryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21DF3C3125CB468A00F3DCBC /* AddCategoryVC.swift */; };
@@ -29,13 +29,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2124941025CC2B4D0013317D /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		2171DC2025C257E800238530 /* EntryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryViewController.swift; sourceTree = "<group>"; };
 		2171DC2425C2584500238530 /* NoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteViewController.swift; sourceTree = "<group>"; };
 		21B0B21B25C22A1400C7781E /* note_technocrates_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = note_technocrates_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		21B0B21E25C22A1400C7781E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		21B0B22025C22A1400C7781E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		21B0B22225C22A1400C7781E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		21B0B22525C22A1400C7781E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		21B0B22725C22A1500C7781E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		21B0B22A25C22A1500C7781E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		21DF3C3125CB468A00F3DCBC /* AddCategoryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCategoryVC.swift; sourceTree = "<group>"; };
@@ -66,7 +66,7 @@
 			isa = PBXGroup;
 			children = (
 				21B0B21D25C22A1400C7781E /* note_technocrates_iOS */,
-				21DF3C4E25CB4EA000F3DCBC /* SO */,
+				2124941025CC2B4D0013317D /* Main.storyboard */,
 				21B0B21C25C22A1400C7781E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -82,7 +82,7 @@
 		21B0B21D25C22A1400C7781E /* note_technocrates_iOS */ = {
 			isa = PBXGroup;
 			children = (
-				21B0B22425C22A1400C7781E /* Main.storyboard */,
+				21DF3C4E25CB4EA000F3DCBC /* SO */,
 				21DF3C4D25CB4C0700F3DCBC /* VC */,
 				21DF3C4025CB489800F3DCBC /* NotesCell.swift */,
 				21DF3C3125CB468A00F3DCBC /* AddCategoryVC.swift */,
@@ -188,7 +188,7 @@
 				21DF3C5625CB51E200F3DCBC /* Info.plist in Resources */,
 				21B0B22B25C22A1500C7781E /* LaunchScreen.storyboard in Resources */,
 				21B0B22825C22A1500C7781E /* Assets.xcassets in Resources */,
-				21B0B22625C22A1400C7781E /* Main.storyboard in Resources */,
+				2124941125CC2B4D0013317D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,14 +220,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		21B0B22425C22A1400C7781E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				21B0B22525C22A1400C7781E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		21B0B22925C22A1500C7781E /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -362,7 +354,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = A749N68468;
-				INFOPLIST_FILE = note_technocrates_iOS/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/note_technocrates_iOS/SO/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -381,7 +373,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = A749N68468;
-				INFOPLIST_FILE = note_technocrates_iOS/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/note_technocrates_iOS/SO/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
