@@ -259,6 +259,7 @@
                         <subviews>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="ADD TITLE OF THE NOTE" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="yuC-dT-Imr">
                                 <rect key="frame" x="12" y="98" width="390" height="40"/>
+                                <color key="backgroundColor" red="0.77647060160000003" green="0.77647060160000003" blue="0.78431367870000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="2GD-0P-pRn"/>
                                 </constraints>
@@ -280,9 +281,9 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences" returnKeyType="done" enablesReturnKeyAutomatically="YES" secureTextEntry="YES"/>
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="90I-uG-Anr">
-                                <rect key="frame" x="15" y="393" width="104" height="34"/>
+                                <rect key="frame" x="15" y="393" width="121" height="34"/>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
-                                <state key="normal" title="+ Add Photo">
+                                <state key="normal" title="+ ADD PHOTO">
                                     <color key="titleColor" systemColor="systemOrangeColor"/>
                                 </state>
                                 <connections>
@@ -290,17 +291,16 @@
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="tpc-Eu-O4J">
-                                <rect key="frame" x="15" y="442" width="384" height="100"/>
+                                <rect key="frame" x="15" y="442" width="384" height="130"/>
                                 <color key="backgroundColor" red="0.77647060160000003" green="0.77647060160000003" blue="0.78431367870000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="100" id="LEY-Ia-Buk"/>
-                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="80" id="lZ0-nr-lZh"/>
+                                    <constraint firstAttribute="height" constant="130" id="LEY-Ia-Buk"/>
                                 </constraints>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zik-UD-6sV">
-                                <rect key="frame" x="265" y="393" width="134" height="34"/>
+                                <rect key="frame" x="246" y="393" width="153" height="34"/>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
-                                <state key="normal" title="- Remove Photo">
+                                <state key="normal" title="- REMOVE PHOTO">
                                     <color key="titleColor" systemColor="systemOrangeColor"/>
                                 </state>
                                 <connections>
@@ -308,7 +308,7 @@
                                 </connections>
                             </button>
                             <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gtJ-bo-rD2">
-                                <rect key="frame" x="15" y="582" width="200" height="100"/>
+                                <rect key="frame" x="15" y="612" width="200" height="100"/>
                                 <color key="backgroundColor" red="0.62352943419999995" green="0.61960786580000005" blue="0.62745100259999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="200" id="2ae-01-1o8"/>
@@ -342,7 +342,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zpp-Pg-BPh">
-                                <rect key="frame" x="314" y="582" width="60" height="60"/>
+                                <rect key="frame" x="314" y="612" width="60" height="60"/>
                                 <color key="backgroundColor" red="0.62352943419999995" green="0.61960786580000005" blue="0.62745100259999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="60" id="D6k-rp-xyE"/>
